@@ -1,9 +1,9 @@
 #include"libOne.h"
 void gmain()
 {
-	window(800, 800, full);
+	window(800, 800);
 	while (notQuit)
 	{
-		clear(0,60,120);
+		clear(200);
 	}
 }

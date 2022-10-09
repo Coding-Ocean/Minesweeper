@@ -116,6 +116,9 @@ public:
 		for (int col = 0; col < Col; col++) {
 			for (int row = 0; row < Row; row++) {
 				Kukaku[col][row].miseru();
+				if (UnkoNiSawatta || NinmuKanryo) {
+					Kukaku[col][row].siraberu();
+				}
 			}
 		}
 		if (UnkoNiSawatta) {
